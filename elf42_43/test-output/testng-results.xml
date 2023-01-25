@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Empty Chrome Browser is Launched]]>
+    </line>
+    <line>
+      <![CDATA[Browser Window is Maximized]]>
+    </line>
+    <line>
+      <![CDATA[Logged out of Application]]>
+    </line>
+    <line>
+      <![CDATA[Closed The Browser Session]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-01-24T13:10:44 IST" name="Default suite" finished-at="2023-01-24T13:11:43 IST" duration-ms="58314">
+    <groups>
+    </groups>
+    <test started-at="2023-01-24T13:10:44 IST" name="Default test" finished-at="2023-01-24T13:11:43 IST" duration-ms="58314">
+      <class name="demo.TC_AddProject_004">
+        <test-method is-config="true" signature="browserSetUp(java.lang.String)[pri:0, instance:demo.TC_AddProject_004@4d465b11]" started-at="2023-01-24T13:10:44 IST" name="browserSetUp" finished-at="2023-01-24T13:11:04 IST" duration-ms="19692" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Empty Chrome Browser is Launched]]>
+            </line>
+            <line>
+              <![CDATA[Browser Window is Maximized]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- browserSetUp -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:demo.TC_AddProject_004@4d465b11]" started-at="2023-01-24T13:11:04 IST" name="loginToApplication" finished-at="2023-01-24T13:11:16 IST" duration-ms="11701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="addProject()[pri:0, instance:demo.TC_AddProject_004@4d465b11]" started-at="2023-01-24T13:11:16 IST" name="addProject" finished-at="2023-01-24T13:11:41 IST" duration-ms="24689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProject -->
+        <test-method is-config="true" signature="logOutOfApp()[pri:0, instance:demo.TC_AddProject_004@4d465b11]" started-at="2023-01-24T13:11:41 IST" name="logOutOfApp" finished-at="2023-01-24T13:11:41 IST" duration-ms="911" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logged out of Application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logOutOfApp -->
+        <test-method is-config="true" signature="browserTearDown()[pri:0, instance:demo.TC_AddProject_004@4d465b11]" started-at="2023-01-24T13:11:41 IST" name="browserTearDown" finished-at="2023-01-24T13:11:43 IST" duration-ms="1244" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Closed The Browser Session]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- browserTearDown -->
+      </class> <!-- demo.TC_AddProject_004 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
