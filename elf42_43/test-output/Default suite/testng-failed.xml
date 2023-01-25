@@ -8,6 +8,57 @@
           <include name="bikes" invocation-numbers="0"/>
         </methods>
       </class> <!-- demo.TC_Bikes_011_Test -->
+      <class name="demo.TC_Acti_Login_001">
+        <methods>
+          <include name="browserSetUp"/>
+          <include name="browserTearDown"/>
+          <include name="TestCase1Login"/>
+          <include name="loginToApplication"/>
+          <include name="logOutOfApp"/>
+        </methods>
+      </class> <!-- demo.TC_Acti_Login_001 -->
+      <class name="demo.OpenSwiggy">
+        <methods>
+          <include name="swiggy"/>
+        </methods>
+      </class> <!-- demo.OpenSwiggy -->
+      <class name="demo.TC_Acti_005">
+        <methods>
+          <include name="browserSetUp"/>
+          <include name="browserTearDown"/>
+          <include name="verifyCustomerCreation"/>
+          <include name="loginToApplication"/>
+          <include name="logOutOfApp"/>
+        </methods>
+      </class> <!-- demo.TC_Acti_005 -->
+      <class name="demo.TC_Bikes_012_Test">
+        <methods>
+          <include name="bikes" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- demo.TC_Bikes_012_Test -->
+      <class name="demo.TC_Bikes_010_Test">
+        <methods>
+          <include name="bikes" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- demo.TC_Bikes_010_Test -->
+      <class name="demo.TC_AddProject_003">
+        <methods>
+          <include name="addProject"/>
+          <include name="browserSetUp"/>
+          <include name="browserTearDown"/>
+          <include name="loginToApplication"/>
+          <include name="logOutOfApp"/>
+        </methods>
+      </class> <!-- demo.TC_AddProject_003 -->
+      <class name="demo.TC_ToVerifyCustomer_003">
+        <methods>
+          <include name="browserSetUp"/>
+          <include name="allCustomersInCreateProject"/>
+          <include name="browserTearDown"/>
+          <include name="loginToApplication"/>
+          <include name="logOutOfApp"/>
+        </methods>
+      </class> <!-- demo.TC_ToVerifyCustomer_003 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

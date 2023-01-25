@@ -59,7 +59,14 @@ public class HomePage {
 	@FindBy(xpath="//div[text()='Create Customer']")
 	private WebElement createCustomerButton;
 	
+	@FindBy(xpath="Customer name cannot be empty")
+	private WebElement emptyCustomerNameMessage;
 	
+	
+	public WebElement getEmptyCustomerNameMessage() {
+		return emptyCustomerNameMessage;
+	}
+
 	public WebElement getCreateCustomerButton() {
 		return createCustomerButton;
 	}
